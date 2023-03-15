@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body
+       {
+        background-color: black;
+       }
+       h1
+       {
+        background:linear-gradient(180deg,blue,blue);
+        color:white;
+        border: 10px ghostwhite solid;
+       }
+       p
+       {
+        color: white;
+        text-align: justify;
+        
+       }
+       a
+       {
+        color: white;
+        background:linear-gradient(180deg,blue,blue);
+        padding: 20px 20px;
+        margin-left: 117px;
+        text-align: center;
+        text-decoration: none;
+        border: 2px solid;
+        border-radius: 25px 0px 25px 0px;
+
+       }
+       div
+       {
+        margin-top: 50px;
+       }
+       #csk
+       {
+        padding: 30px 20px;
+       }
+       #ms
+       {
+        width: 500px;
+        margin-left: 450px;
+        padding: 10px;
+        border: 2px solid;
+        border-radius: 25px 0px 20px 0px;
+       }
+       a:hover
+       {
+        box-shadow: 2px 2px 2px  white;
+       }
+
+    </style>
+
+</head>
+<body>
+    <h1 id='csk' align="center">Mumbai Indians</h1>
+    <h1 id='ms' align="center">Jasprit Bumrah</h1>
+<p>Jasprit Jasbirsingh Bumrah (born 6 December 1993) is an Indian international cricketer who plays for the Indian national cricket team in all formats of the game. A right-arm fast bowler with a unique bowling action, Bumrah is considered one of the best fast bowlers in the world. He plays for Gujarat cricket team and Mumbai Indians in first-class cricket and Indian Premier League respectively.
+He made his international debut in January 2016 and quickly established himself as a key player in the Indian team. He has been consistently ranked among the top bowlers in the ICC Player Rankings for ODI and T20I bowlers. He is known for his ability to take wickets in the death overs, and has been instrumental in India's success in limited-overs cricket in recent years. He has several records to his name including the fastest Indian bowler to 50 and 100 wickets in ODIs and the fastest Indian to reach 50 wickets in T20Is. He is one of the most successful fast bowlers India has ever produced. He currently plays IPL only for Mumbai Indians</p>
+<div>
+        
+    <a href="{% url 'raina' %}">Suresh Raina</a>
+    <a href="{% url 'rcb:kohli' %}">Virat Kohli</a>
+    <a href="{% url 'dhoni' %}">Mahendra Singh Dhoni</a>
+    <a href="{% url 'mi:rohit' %}">Rohit Sharma</a>
+    <a href="{% url 'rcb:abd' %}">AB de villiers</a>
+    </div>
+</body>
+</html>

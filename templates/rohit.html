@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body
+       {
+        background-color: black;
+       }
+       h1
+       {
+        background:linear-gradient(180deg,Blue,blue);
+        color:white;
+        border: 10px ghostwhite solid;
+       }
+       p
+       {
+        color: white;
+        text-align: justify;
+        
+       }
+       a
+       {
+        color:white;
+        background:linear-gradient(180deg,blue,blue);
+        padding: 20px 20px;
+        margin-left: 117px;
+        text-align: center;
+        text-decoration: none;
+        border: 2px solid;
+        border-radius: 25px 0px 25px 0px;
+
+       }
+       div
+       {
+        margin-top: 50px;
+       }
+       #csk
+       {
+        padding: 30px 20px;
+       }
+       #ms
+       {
+        width: 500px;
+        margin-left: 450px;
+        padding: 10px;
+        border: 2px solid;
+        border-radius: 25px 0px 20px 0px;
+       }
+       a:hover
+       {
+        box-shadow: 2px 2px 2px  white;
+       }
+
+    </style>
+
+</head>
+<body>
+    <h1 id='csk' align="center">Mumbai Indians</h1>
+    <h1 id='ms' align="center">Rohit Sharma</h1>
+<p>Rohit Gurunath Sharma (born 30 April 1987), is an Indian international cricketer and the current captain of India men’s cricket team in all formats. Considered as one of the best batsman of his generation and one of greatest opening batters of all time,[1] Rohit is known for his timing, elegance, six-hiting abilities and leadership skills. He plays as a right-handed batsman for India national cricket team in international cricket, Mumbai Indians in IPL and for Mumbai in domestic cricket. Rohit also captains Mumbai Indians and the team has won 5 titles under his leadership, the most by any team.
+Sharma currently holds the world record for the highest individual score (264) in a One Day International (ODI) match and is the only player to have scored three double-centuries in ODIs and also holds the record for scoring most hundreds (five) in a single Cricket World Cup, for which he won the ICC Men's ODI Cricketer of the Year award in 2019. Sharma has received two national honours, the Arjuna Award in 2015 and the prestigious Major Dhyan Chand Khel Ratna in 2020.
+Outside cricket, Sharma is an active supporter of animal welfare campaigns. He is the official Rhino Ambassador for WWF-India and is a member of People for the Ethical Treatment of Animals (PETA). He has worked with PETA in its campaign to raise awareness of the plight of homeless cats and dogs in India.</p>
+<div>
+    <a href="{% url 'rcb:abd' %}">AB de villiers</a>
+    <a href="{% url 'mi:bumrah' %}">Jasprit Bumrah</a>
+    <a href="{% url 'raina' %}">Suresh Raina</a>
+    <a href="{% url 'rcb:kohli' %}">Virat Kohli</a>
+    <a href="{% url 'dhoni' %}">Mahendra Singh Dhoni</a>
+    </div>
+</body>
+</html>
